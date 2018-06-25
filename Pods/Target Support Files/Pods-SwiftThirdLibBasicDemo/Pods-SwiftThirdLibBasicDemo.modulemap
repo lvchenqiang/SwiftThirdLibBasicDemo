@@ -1,0 +1,6 @@
+framework module Pods_SwiftThirdLibBasicDemo {
+  umbrella header "Pods-SwiftThirdLibBasicDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

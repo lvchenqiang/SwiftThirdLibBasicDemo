@@ -14,6 +14,8 @@
 		8527AD3920E0E8390090D185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8527AD3820E0E8390090D185 /* Assets.xcassets */; };
 		8527AD3C20E0E8390090D185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8527AD3A20E0E8390090D185 /* LaunchScreen.storyboard */; };
 		8527AD4620E0F83D0090D185 /* RXSwiftDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527AD4520E0F83D0090D185 /* RXSwiftDemoVC.swift */; };
+		8527AD5C20E2215D0090D185 /* RXSwiftUIControlSimpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527AD5B20E2215D0090D185 /* RXSwiftUIControlSimpleVC.swift */; };
+		8527AD5F20E22B780090D185 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527AD5E20E22B770090D185 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		8527AD3820E0E8390090D185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8527AD3B20E0E8390090D185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8527AD3D20E0E8390090D185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8527AD4520E0F83D0090D185 /* RXSwiftDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwiftDemoVC.swift; sourceTree = "<group>"; };
+		8527AD4520E0F83D0090D185 /* RXSwiftDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwiftDemoVC.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		8527AD5B20E2215D0090D185 /* RXSwiftUIControlSimpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwiftUIControlSimpleVC.swift; sourceTree = "<group>"; };
+		8527AD5E20E22B770090D185 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		BFAD51C5762AE436084FD2C0 /* Pods_SwiftThirdLibBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftThirdLibBasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7BD3505830D58CA1AF9B58 /* Pods-SwiftThirdLibBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftThirdLibBasicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftThirdLibBasicDemo/Pods-SwiftThirdLibBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +79,8 @@
 				8527AD3120E0E8380090D185 /* AppDelegate.swift */,
 				8527AD3320E0E8380090D185 /* ViewController.swift */,
 				8527AD4520E0F83D0090D185 /* RXSwiftDemoVC.swift */,
+				8527AD5B20E2215D0090D185 /* RXSwiftUIControlSimpleVC.swift */,
+				8527AD5E20E22B770090D185 /* Operators.swift */,
 				8527AD3520E0E8380090D185 /* Main.storyboard */,
 				8527AD3820E0E8390090D185 /* Assets.xcassets */,
 				8527AD3A20E0E8390090D185 /* LaunchScreen.storyboard */,
@@ -218,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8527AD3420E0E8380090D185 /* ViewController.swift in Sources */,
+				8527AD5F20E22B780090D185 /* Operators.swift in Sources */,
 				8527AD3220E0E8380090D185 /* AppDelegate.swift in Sources */,
+				8527AD5C20E2215D0090D185 /* RXSwiftUIControlSimpleVC.swift in Sources */,
 				8527AD4620E0F83D0090D185 /* RXSwiftDemoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

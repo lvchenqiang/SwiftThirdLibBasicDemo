@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
        self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
-        self.window?.rootViewController = RXSwiftDemoVC()
+//        self.window?.rootViewController = RXSwiftDemoVC()
+        self.window?.rootViewController = RXSwiftUIControlSimpleVC()
         self.window?.makeKeyAndVisible()
         return true
     }
